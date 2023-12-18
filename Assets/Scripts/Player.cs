@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
         coll = GetComponent<Collider2D>();
         sprite = GetComponent<SpriteRenderer>();
     }
+
+
     void Update()
     {
         float horizontal = Input.GetAxis("Horizontal");
